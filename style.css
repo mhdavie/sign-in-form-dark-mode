@@ -50,6 +50,33 @@ main .social-media a:first-child img {
     margin-left: 0;
 }
 
+main .classe-alternativa {
+
+    margin-top: 1rem;
+}
+
+main .classe-alternativa span {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+main .classe-alternativa span::before, main .classe-alternativa span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom:50%;
+    right: 50px;
+    background:rgba(255, 255, 255, 0.3);
+}
+
+main .classe-alternativa span::after {
+
+    left: 50px;
+}
+
 main form {
 
     display: flex;
@@ -126,3 +153,4 @@ section.image .circle {
     z-index: -1;
     
 }
+
