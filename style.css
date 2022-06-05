@@ -131,10 +131,12 @@ main form input[type="submit"]:hover {
 
 }
 
+
 section.image {
     display: flex;
     align-items: flex-end;
-    padding: 2rem;
+    padding: 3rem;
+
 
 }
 
