@@ -1,5 +1,1 @@
-function darkMode() {
- 
-    var element = document.body;
-    element.classList.toggle("dark-mode");
-}
+var checkbox = document.getElementById("Changetheme");
