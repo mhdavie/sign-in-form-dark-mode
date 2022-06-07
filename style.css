@@ -11,12 +11,20 @@
 body {
     background: #1B2029;
     color: white;
+    transition: 0.5s;
     font-weight: 500;
     display: flex;
     min-height: 100vh;
     min-width: 100vw;
 }
-.dark-mode {
+
+#ChangeTheme {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+body.dark-mode {
     background-color: white;
     color: black;
   }
