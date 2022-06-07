@@ -32,5 +32,7 @@ function darkMode() {
 function nodark() {
 
     document.bodyclassList.remove("dark-mode");//remove  added class from body tag
-    checkbox.checked = false; 
+    checkbox.checked = false; // set checked box to unchecked state
+    sessionStorage.setItem("mode", "light"); //store a name & value to know that dark mode is off or light mode is on
+    
 }
