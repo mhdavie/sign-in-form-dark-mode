@@ -24,5 +24,13 @@ function darkMode() {
     document.body.classList.add("dark-mode");
     // add a class to the body tag
     checkbox.checked = true; //set checkbox to be checked state
-    
+    sessionStorage.setItem("mode", "dark"); //store a name & value to know that dark mode is on
+}
+
+// function for checkbox when checkbox is not checked
+
+function nodark() {
+
+    document.bodyclassList.remove("dark-mode");//remove  added class from body tag
+    checkbox.checked = false; 
 }
