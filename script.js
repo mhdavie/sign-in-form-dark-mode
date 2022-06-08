@@ -3,7 +3,8 @@ var checkbox = document.getElementById("Changetheme");// get checkbox to variabl
 //check storage if dark mode was on or off and
 
 if (sessionStorage.getItem("mode") == "dark"){
-    darkMode(); // if dark mode is on, run this function
+    console.log("heeey")
+    // darkMode(); // if dark mode is on, run this function
 
 } else {
     nodark(); // else run this function
@@ -32,7 +33,7 @@ function darkMode() {
 
 function nodark() {
 
-    document.bodyclassList.remove("dark-mode"); //remove  added class from body tag
+    document.body.classList.remove("dark-mode"); //remove  added class from body tag
     checkbox.checked = false; // set checked box to unchecked state
     sessionStorage.setItem("mode", "light"); //store a name & value to know that dark mode is off or light mode is on
 
