@@ -11,8 +11,7 @@ if (sessionStorage.getItem("mode") == "dark"){
 
 // if the checkbox state is changed, ruh this other function
 
-if (checkbox.checked) {
-   
+if (checkbox.checked) {   
     console.log("hey") // if the checkbox is checked, run this function
 
 } else {
