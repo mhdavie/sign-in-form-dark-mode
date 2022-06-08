@@ -2,7 +2,7 @@ var checkbox = document.getElementById("Changetheme");// get checkbox to variabl
 
 //check storage if dark mode was on or off and
 
-if (sessionStorage.getItem("mode") == "dark"){
+if (sessionStorage.getItem("dark-mode") == "dark"){
     console.log("heeey")
     // darkMode(); // if dark mode is on, run this function
 
