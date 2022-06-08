@@ -24,9 +24,7 @@ body {
     opacity: 0;
   }
 
-#ChangeTheme:checked + span.slide:before {
-    transform: translatex(40px);
-  }
+
 
 body.dark-mode {
     background-color: white;
