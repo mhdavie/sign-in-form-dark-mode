@@ -17,9 +17,13 @@ inputContainer.addEventListener('change', function() {
     const ischecked = inputContainer.checked
 
     ischecked ? changeTheme(darkTheme) : changeTheme(lightTheme)
-    console.log(changeTheme(darkTheme))
+   
     
 })
+
+function changeTheme(theme) {
+    
+}
 
   
 
