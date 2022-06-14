@@ -7,6 +7,12 @@ const lightTheme = {
 
 }
 
+const DarkTheme = {
+    'background-color': 'white',
+    'color': 'black'
+
+}
+
 inputContainer.addEventListener('change', function() {
   const ischecked = inputContainer.checked
 
