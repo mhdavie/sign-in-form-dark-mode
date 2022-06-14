@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 
+:root {
+  --background-color: white;
+  --text-color: black
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -18,18 +24,6 @@ body {
     min-width: 100vw;
 }
 
-#ChangeTheme {
-    width: 0;
-    height: 0;
-    opacity: 0;
-  }
-
-
-
-.dark-mode {
-    background-color: white;
-    color: black;
-  }
 
 main {
     width: 50vw;
